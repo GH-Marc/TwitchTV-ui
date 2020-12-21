@@ -33,7 +33,6 @@ const ChannelList: React.FC = () => {
     <List>
       <ChannelItem />
       <ChannelItem />
-      <ChannelItem />
     </List>
   );
 };
