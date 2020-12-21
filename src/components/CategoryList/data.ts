@@ -6,10 +6,10 @@ import vrchat from '../../images/category_vrchat.jpg';
 import aqw from '../../images/category_aqw.jpg';
 
 export default [
-  { name: 'League of Legends', source: lol },
-  { name: 'VALORANT', source: valorant },
-  { name: 'osu!', source: osu },
-  { name: 'Overwatch', source: overwatch },
-  { name: 'VRChat', source: vrchat },
-  { name: 'Adventure Quest Worlds', source: aqw },
+  { name: 'League of Legends', source: lol, views: '158,9k' },
+  { name: 'VALORANT', source: valorant, views: '66,4k' },
+  { name: 'osu!', source: osu, views: '1,9k' },
+  { name: 'Overwatch', source: overwatch, views: '22,2k' },
+  { name: 'VRChat', source: vrchat, views: '3,9k' },
+  { name: 'Adventure Quest Worlds', source: aqw, views: '16' },
 ];
