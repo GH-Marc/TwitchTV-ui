@@ -5,7 +5,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Ionicons, MaterialCommunityIcons, MaterialIcons } from '@expo/vector-icons';
 
 import Following from './pages/Following';
-import ComingSoon from './pages/ComingSoon';
+import Discover from './pages/Discover';
 import colors from './styles/colors';
 
 const { Navigator, Screen } = createBottomTabNavigator();
@@ -53,8 +53,8 @@ const Routes: React.FC = () => (
         }}
       />
       <Screen 
-        name="Descobra" 
-        component={ComingSoon}
+        name="Descubra"
+        component={Discover}
         options={{
           tabBarIcon: ({ size, focused }) => {
             return (
@@ -69,7 +69,7 @@ const Routes: React.FC = () => (
       />
       <Screen 
         name="Procurar" 
-        component={ComingSoon}
+        component={Discover}
         options={{
           tabBarIcon: ({ size, focused }) => {
             return (
@@ -84,7 +84,7 @@ const Routes: React.FC = () => (
       />
       <Screen 
         name="Esports" 
-        component={ComingSoon}
+        component={Discover}
         options={{
           tabBarIcon: ({ size, focused }) => {
             return (
